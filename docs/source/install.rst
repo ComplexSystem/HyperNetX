@@ -1,6 +1,8 @@
 Installing HyperNetX
 ====================
 
+HyperNetX may be cloned or forked from: https://github.com/pnnl/HyperNetX .
+
 To install in an Anaconda environment
 -------------------------------------
 
@@ -53,7 +55,8 @@ To install with the tutorials:
 To install with the documentation: 
 	
 	>>> pip install -e .['documentation']
-	>>> sphinx-build -b html docs/source docs/build 
+	>>> chmod 755 build_docs.sh
+	>>> ./build_docs.sh
 	## This will generate the documentation in /docs/build
 	## Open them in your browser with /docs/build/index.html
 
